@@ -40,7 +40,7 @@ def test_start_new_config(mocker, caplog, exchange):
     sample_selections = {
         'max_open_trades': 3,
         'stake_currency': 'USDT',
-        'stake_amount': 1000,
+        'stake_amount': 100,
         'fiat_display_currency': 'EUR',
         'timeframe': '15m',
         'dry_run': True,
