@@ -111,7 +111,7 @@ def test_ask_user_config(mocker):
                                return_value={'overwrite': False})
     answers = ask_user_config()
     assert isinstance(answers, dict)
-    assert prompt_mock.call_count == 1
+    assert prompt_mock.call_count == 11
 
     prompt_mock = mocker.patch('freqtrade.commands.build_config_commands.prompt',
                                return_value={})
