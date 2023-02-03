@@ -5,5 +5,5 @@ extension-pkg-whitelist=numpy,talib,talib.abstract
 good-names=logger
 ignore=vendor
 
-[TYPECHECK]r
+[TYPECHECK]
 ignored-modules=numpy,talib,talib.abstract
