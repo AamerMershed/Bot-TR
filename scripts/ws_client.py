@@ -326,3 +326,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    
+    await create_client(
+        producer['host'],
+        producer['port'],
+        producer['ws_token'],
+        'wss' if producer.get('secure', False) else 'ws',
+        producer['name'],
+        sleep_time=sleep_time,
+        ping_timeout=ping_timeout,
+        wait_timeout=wait_timeout,
+        max_size=message_size_limit,
+        ping_interval=None
