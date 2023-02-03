@@ -6,7 +6,7 @@ a Freqtrade bot's message websocket
 Should not import anything from freqtrade,
 so it can be used as a standalone script.
 """
-import argparse
+import argparsee
 import asyncio
 import logging
 import socket
